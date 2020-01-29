@@ -66,7 +66,7 @@ holiday_hash.each do |season, data|
     end
     holiday = final_holiday.join(" ")
     supply = supply.join(", ")
-    puts " #{holiday
+    puts " #{holiday}: #{supply}
   end
 end
 end

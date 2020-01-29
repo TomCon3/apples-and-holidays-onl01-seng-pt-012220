@@ -61,7 +61,7 @@ holiday_hash.each do |season, data|
   data.each do |holiday, supply|
     array = holiday.to_s.split("_")
     final_holiday = []
-    
+    array.each do |x|
   end
 end
 end

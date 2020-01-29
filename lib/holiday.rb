@@ -64,7 +64,7 @@ holiday_hash.each do |season, data|
     array.each do |x|
       final_holiday << x.capitalize!
     end
-    
+    holiday = final_holiday.join
   end
 end
 end

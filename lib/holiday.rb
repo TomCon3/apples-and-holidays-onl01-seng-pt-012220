@@ -62,7 +62,7 @@ holiday_hash.each do |season, data|
     array = holiday.to_s.split("_")
     final_holiday = []
     array.each do |x|
-      final_holiday << x.
+      final_holiday << x.capitalize!
   end
 end
 end

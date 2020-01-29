@@ -58,7 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |season, data|
   data.each do |holiday, supply|
-    
+    holiday.values.flatten
 end
 
 def all_holidays_with_bbq(holiday_hash)

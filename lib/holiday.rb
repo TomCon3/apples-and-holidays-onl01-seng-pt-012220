@@ -63,6 +63,8 @@ holiday_hash.each do |season, data|
     final_holiday = []
     array.each do |x|
       final_holiday << x.capitalize!
+    end
+    
   end
 end
 end

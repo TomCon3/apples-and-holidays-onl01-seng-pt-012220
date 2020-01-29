@@ -65,7 +65,7 @@ holiday_hash.each do |season, data|
       final_holiday << x.capitalize!
     end
     holiday = final_holiday.join(" ")
-    supply = supply.join
+    supply = supply.join(", ")
   end
 end
 end
